@@ -1,0 +1,253 @@
+Benchmark                                                (listSize)    Mode     Cnt         Score        Error  Units
+SampleDTO.usingForEachLoop                                        1  sample  224798        42,228 ±      1,931  ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.00                 1  sample                   ≈ 0               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.50                 1  sample                   ≈ 0               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.90                 1  sample               100,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.95                 1  sample               100,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.99                 1  sample               100,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.999                1  sample               300,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.9999               1  sample             11041,930               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p1.00                 1  sample             59776,000               ns/op
+SampleDTO.usingForEachLoop                                       10  sample  338574        83,502 ±      2,206  ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.00                10  sample                   ≈ 0               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.50                10  sample               100,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.90                10  sample               100,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.95                10  sample               200,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.99                10  sample               200,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.999               10  sample               400,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.9999              10  sample             12205,680               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p1.00                10  sample            112384,000               ns/op
+SampleDTO.usingForEachLoop                                      100  sample  274958       606,606 ±      6,052  ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.00               100  sample               200,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.50               100  sample               600,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.90               100  sample               800,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.95               100  sample              1100,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.99               100  sample              1300,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.999              100  sample              2600,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.9999             100  sample             42536,659               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p1.00               100  sample            128640,000               ns/op
+SampleDTO.usingForEachLoop                                     1000  sample  233343      5400,031 ±     22,916  ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.00              1000  sample              2500,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.50              1000  sample              4800,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.90              1000  sample              8592,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.95              1000  sample             10800,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.99              1000  sample             15488,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.999             1000  sample             31155,968               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.9999            1000  sample            111828,787               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p1.00              1000  sample            274944,000               ns/op
+SampleDTO.usingForEachLoop                                    10000  sample   99903     49781,950 ±    199,551  ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.00             10000  sample             22400,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.50             10000  sample             46144,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.90             10000  sample             70784,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.95             10000  sample             95744,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.99             10000  sample            113664,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.999            10000  sample            184856,576               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.9999           10000  sample            225309,491               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p1.00             10000  sample            272896,000               ns/op
+SampleDTO.usingForEachLoop                                   100000  sample   23111    432076,525 ±   4088,747  ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.00            100000  sample            223488,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.50            100000  sample            395264,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.90            100000  sample            609280,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.95            100000  sample            856064,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.99            100000  sample           1210368,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.999           100000  sample           1349632,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.9999          100000  sample           1652413,235               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p1.00            100000  sample           1736704,000               ns/op
+SampleDTO.usingForEachLoop                                  1000000  sample    2145   4661209,809 ± 198256,339  ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.00           1000000  sample           2482176,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.50           1000000  sample           4075520,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.90           1000000  sample           6797721,600               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.95           1000000  sample           8924364,800               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.99           1000000  sample          11657871,360               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.999          1000000  sample          45315522,560               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p0.9999         1000000  sample          91619328,000               ns/op
+SampleDTO.usingForEachLoop:usingForEachLoop·p1.00           1000000  sample          91619328,000               ns/op
+SampleDTO.usingIterator                                           1  sample  229404        40,184 ±      3,421  ns/op
+SampleDTO.usingIterator:usingIterator·p0.00                       1  sample                   ≈ 0               ns/op
+SampleDTO.usingIterator:usingIterator·p0.50                       1  sample                   ≈ 0               ns/op
+SampleDTO.usingIterator:usingIterator·p0.90                       1  sample               100,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.95                       1  sample               100,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.99                       1  sample               100,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.999                      1  sample               500,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.9999                     1  sample             15797,712               ns/op
+SampleDTO.usingIterator:usingIterator·p1.00                       1  sample            116480,000               ns/op
+SampleDTO.usingIterator                                          10  sample  352202       110,919 ±     78,366  ns/op
+SampleDTO.usingIterator:usingIterator·p0.00                      10  sample                   ≈ 0               ns/op
+SampleDTO.usingIterator:usingIterator·p0.50                      10  sample               100,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.90                      10  sample               100,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.95                      10  sample               200,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.99                      10  sample               200,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.999                     10  sample               600,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.9999                    10  sample             13975,326               ns/op
+SampleDTO.usingIterator:usingIterator·p1.00                      10  sample           8298496,000               ns/op
+SampleDTO.usingIterator                                         100  sample  203996       424,776 ±     11,396  ns/op
+SampleDTO.usingIterator:usingIterator·p0.00                     100  sample               100,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.50                     100  sample               400,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.90                     100  sample               600,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.95                     100  sample               800,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.99                     100  sample              1000,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.999                    100  sample              3500,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.9999                   100  sample             42086,707               ns/op
+SampleDTO.usingIterator:usingIterator·p1.00                     100  sample            575488,000               ns/op
+SampleDTO.usingIterator                                        1000  sample  204955      3099,569 ±     17,316  ns/op
+SampleDTO.usingIterator:usingIterator·p0.00                    1000  sample              1700,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.50                    1000  sample              2800,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.90                    1000  sample              4000,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.95                    1000  sample              6096,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.99                    1000  sample              8688,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.999                   1000  sample             19588,224               ns/op
+SampleDTO.usingIterator:usingIterator·p0.9999                  1000  sample            104512,563               ns/op
+SampleDTO.usingIterator:usingIterator·p1.00                    1000  sample            208384,000               ns/op
+SampleDTO.usingIterator                                       10000  sample  149974     33226,150 ±    138,801  ns/op
+SampleDTO.usingIterator:usingIterator·p0.00                   10000  sample             17600,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.50                   10000  sample             29376,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.90                   10000  sample             48064,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.95                   10000  sample             69376,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.99                   10000  sample             92800,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.999                  10000  sample            136966,400               ns/op
+SampleDTO.usingIterator:usingIterator·p0.9999                 10000  sample            238082,560               ns/op
+SampleDTO.usingIterator:usingIterator·p1.00                   10000  sample           1910784,000               ns/op
+SampleDTO.usingIterator                                      100000  sample   23888    418514,808 ±   3604,623  ns/op
+SampleDTO.usingIterator:usingIterator·p0.00                  100000  sample            212480,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.50                  100000  sample            378880,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.90                  100000  sample            546816,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.95                  100000  sample            827955,200               ns/op
+SampleDTO.usingIterator:usingIterator·p0.99                  100000  sample           1167360,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.999                 100000  sample           1301161,984               ns/op
+SampleDTO.usingIterator:usingIterator·p0.9999                100000  sample           1509943,910               ns/op
+SampleDTO.usingIterator:usingIterator·p1.00                  100000  sample           1806336,000               ns/op
+SampleDTO.usingIterator                                     1000000  sample    2158   4631592,808 ± 114591,105  ns/op
+SampleDTO.usingIterator:usingIterator·p0.00                 1000000  sample           2813952,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.50                 1000000  sample           4083712,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.90                 1000000  sample           6497075,200               ns/op
+SampleDTO.usingIterator:usingIterator·p0.95                 1000000  sample           8503296,000               ns/op
+SampleDTO.usingIterator:usingIterator·p0.99                 1000000  sample          11135221,760               ns/op
+SampleDTO.usingIterator:usingIterator·p0.999                1000000  sample          12736331,776               ns/op
+SampleDTO.usingIterator:usingIterator·p0.9999               1000000  sample          13156352,000               ns/op
+SampleDTO.usingIterator:usingIterator·p1.00                 1000000  sample          13156352,000               ns/op
+SampleDTO.usingSimpleForLoop                                      1  sample  286001        35,505 ±      2,817  ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.00             1  sample                   ≈ 0               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.50             1  sample                   ≈ 0               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.90             1  sample               100,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.95             1  sample               100,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.99             1  sample               100,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.999            1  sample               400,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.9999           1  sample             11398,301               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p1.00             1  sample            141056,000               ns/op
+SampleDTO.usingSimpleForLoop                                     10  sample  207999        73,528 ±      3,498  ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.00            10  sample                   ≈ 0               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.50            10  sample               100,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.90            10  sample               100,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.95            10  sample               100,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.99            10  sample               200,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.999           10  sample               500,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.9999          10  sample             14419,200               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p1.00            10  sample             95232,000               ns/op
+SampleDTO.usingSimpleForLoop                                    100  sample  356843       473,235 ±      5,509  ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.00           100  sample               200,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.50           100  sample               400,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.90           100  sample               600,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.95           100  sample              1000,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.99           100  sample              1300,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.999          100  sample              2400,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.9999         100  sample             36560,563               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p1.00           100  sample            227584,000               ns/op
+SampleDTO.usingSimpleForLoop                                   1000  sample  297552      4227,856 ±     16,469  ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.00          1000  sample              2300,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.50          1000  sample              3800,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.90          1000  sample              5600,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.95          1000  sample              8688,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.99          1000  sample             12288,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.999         1000  sample             19776,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.9999        1000  sample            109789,965               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p1.00          1000  sample            278016,000               ns/op
+SampleDTO.usingSimpleForLoop                                  10000  sample  118570     41954,703 ±    178,530  ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.00         10000  sample             22784,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.50         10000  sample             38592,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.90         10000  sample             55360,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.95         10000  sample             82560,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.99         10000  sample            120192,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.999        10000  sample            150893,824               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.9999       10000  sample            220342,989               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p1.00         10000  sample            321024,000               ns/op
+SampleDTO.usingSimpleForLoop                                 100000  sample   20567    486037,278 ±   5384,956  ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.00        100000  sample            250368,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.50        100000  sample            406528,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.90        100000  sample            781312,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.95        100000  sample            963584,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.99        100000  sample           1247887,360               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.999       100000  sample           1716879,360               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.9999      100000  sample           7563191,910               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p1.00        100000  sample           7897088,000               ns/op
+SampleDTO.usingSimpleForLoop                                1000000  sample    2404   4156042,862 ±  94384,905  ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.00       1000000  sample           2527232,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.50       1000000  sample           3921920,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.90       1000000  sample           5545984,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.95       1000000  sample           7307264,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.99       1000000  sample          10256384,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.999      1000000  sample          11468390,400               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p0.9999     1000000  sample          12189696,000               ns/op
+SampleDTO.usingSimpleForLoop:usingSimpleForLoop·p1.00       1000000  sample          12189696,000               ns/op
+SampleDTO.usingStream                                             1  sample  220702        45,122 ±      2,665  ns/op
+SampleDTO.usingStream:usingStream·p0.00                           1  sample                   ≈ 0               ns/op
+SampleDTO.usingStream:usingStream·p0.50                           1  sample                   ≈ 0               ns/op
+SampleDTO.usingStream:usingStream·p0.90                           1  sample               100,000               ns/op
+SampleDTO.usingStream:usingStream·p0.95                           1  sample               100,000               ns/op
+SampleDTO.usingStream:usingStream·p0.99                           1  sample               100,000               ns/op
+SampleDTO.usingStream:usingStream·p0.999                          1  sample               400,000               ns/op
+SampleDTO.usingStream:usingStream·p0.9999                         1  sample             14089,251               ns/op
+SampleDTO.usingStream:usingStream·p1.00                           1  sample             85376,000               ns/op
+SampleDTO.usingStream                                            10  sample  208627        71,853 ±      3,490  ns/op
+SampleDTO.usingStream:usingStream·p0.00                          10  sample                   ≈ 0               ns/op
+SampleDTO.usingStream:usingStream·p0.50                          10  sample               100,000               ns/op
+SampleDTO.usingStream:usingStream·p0.90                          10  sample               100,000               ns/op
+SampleDTO.usingStream:usingStream·p0.95                          10  sample               100,000               ns/op
+SampleDTO.usingStream:usingStream·p0.99                          10  sample               200,000               ns/op
+SampleDTO.usingStream:usingStream·p0.999                         10  sample               500,000               ns/op
+SampleDTO.usingStream:usingStream·p0.9999                        10  sample             15709,171               ns/op
+SampleDTO.usingStream:usingStream·p1.00                          10  sample            116736,000               ns/op
+SampleDTO.usingStream                                           100  sample  241691       360,740 ±     12,572  ns/op
+SampleDTO.usingStream:usingStream·p0.00                         100  sample               100,000               ns/op
+SampleDTO.usingStream:usingStream·p0.50                         100  sample               300,000               ns/op
+SampleDTO.usingStream:usingStream·p0.90                         100  sample               400,000               ns/op
+SampleDTO.usingStream:usingStream·p0.95                         100  sample               700,000               ns/op
+SampleDTO.usingStream:usingStream·p0.99                         100  sample              1000,000               ns/op
+SampleDTO.usingStream:usingStream·p0.999                        100  sample              2730,800               ns/op
+SampleDTO.usingStream:usingStream·p0.9999                       100  sample             39241,856               ns/op
+SampleDTO.usingStream:usingStream·p1.00                         100  sample            820224,000               ns/op
+SampleDTO.usingStream                                          1000  sample  203378      3130,319 ±     41,444  ns/op
+SampleDTO.usingStream:usingStream·p0.00                        1000  sample              1600,000               ns/op
+SampleDTO.usingStream:usingStream·p0.50                        1000  sample              2800,000               ns/op
+SampleDTO.usingStream:usingStream·p0.90                        1000  sample              4296,000               ns/op
+SampleDTO.usingStream:usingStream·p0.95                        1000  sample              6096,000               ns/op
+SampleDTO.usingStream:usingStream·p0.99                        1000  sample              8592,000               ns/op
+SampleDTO.usingStream:usingStream·p0.999                       1000  sample             22315,104               ns/op
+SampleDTO.usingStream:usingStream·p0.9999                      1000  sample            100261,990               ns/op
+SampleDTO.usingStream:usingStream·p1.00                        1000  sample           2326528,000               ns/op
+SampleDTO.usingStream                                         10000  sample  164225     30379,915 ±    112,880  ns/op
+SampleDTO.usingStream:usingStream·p0.00                       10000  sample             14688,000               ns/op
+SampleDTO.usingStream:usingStream·p0.50                       10000  sample             27296,000               ns/op
+SampleDTO.usingStream:usingStream·p0.90                       10000  sample             42944,000               ns/op
+SampleDTO.usingStream:usingStream·p0.95                       10000  sample             60096,000               ns/op
+SampleDTO.usingStream:usingStream·p0.99                       10000  sample             83840,000               ns/op
+SampleDTO.usingStream:usingStream·p0.999                      10000  sample            108800,000               ns/op
+SampleDTO.usingStream:usingStream·p0.9999                     10000  sample            179939,072               ns/op
+SampleDTO.usingStream:usingStream·p1.00                       10000  sample           1269760,000               ns/op
+SampleDTO.usingStream                                        100000  sample   25524    391771,271 ±   3325,812  ns/op
+SampleDTO.usingStream:usingStream·p0.00                      100000  sample            164096,000               ns/op
+SampleDTO.usingStream:usingStream·p0.50                      100000  sample            365056,000               ns/op
+SampleDTO.usingStream:usingStream·p0.90                      100000  sample            522496,000               ns/op
+SampleDTO.usingStream:usingStream·p0.95                      100000  sample            757760,000               ns/op
+SampleDTO.usingStream:usingStream·p0.99                      100000  sample           1110016,000               ns/op
+SampleDTO.usingStream:usingStream·p0.999                     100000  sample           1224704,000               ns/op
+SampleDTO.usingStream:usingStream·p0.9999                    100000  sample           1293475,840               ns/op
+SampleDTO.usingStream:usingStream·p1.00                      100000  sample           1335296,000               ns/op
+SampleDTO.usingStream                                       1000000  sample    2891   3456727,887 ±  64074,108  ns/op
+SampleDTO.usingStream:usingStream·p0.00                     1000000  sample           1933312,000               ns/op
+SampleDTO.usingStream:usingStream·p0.50                     1000000  sample           3231744,000               ns/op
+SampleDTO.usingStream:usingStream·p0.90                     1000000  sample           4266393,600               ns/op
+SampleDTO.usingStream:usingStream·p0.95                     1000000  sample           5762252,800               ns/op
+SampleDTO.usingStream:usingStream·p0.99                     1000000  sample           8454144,000               ns/op
+SampleDTO.usingStream:usingStream·p0.999                    1000000  sample           9571794,944               ns/op
+SampleDTO.usingStream:usingStream·p0.9999                   1000000  sample          10076160,000               ns/op
+SampleDTO.usingStream:usingStream·p1.00                     1000000  sample          10076160,000               ns/op

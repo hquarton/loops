@@ -1,0 +1,253 @@
+Benchmark                                                   (listSize)    Mode     Cnt         Score        Error  Units
+SampleString.usingForEachLoop                                        1  sample  295300        30,957 ±      1,418  ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.00                 1  sample                   ≈ 0               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.50                 1  sample                   ≈ 0               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.90                 1  sample               100,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.95                 1  sample               100,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.99                 1  sample               100,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.999                1  sample               200,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.9999               1  sample              5283,960               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p1.00                 1  sample             66304,000               ns/op
+SampleString.usingForEachLoop                                       10  sample  231388        60,618 ±      3,604  ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.00                10  sample                   ≈ 0               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.50                10  sample               100,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.90                10  sample               100,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.95                10  sample               100,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.99                10  sample               100,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.999               10  sample               300,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.9999              10  sample              7372,220               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p1.00                10  sample            204032,000               ns/op
+SampleString.usingForEachLoop                                      100  sample  356490       466,310 ±      3,186  ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.00               100  sample               300,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.50               100  sample               400,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.90               100  sample               600,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.95               100  sample               700,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.99               100  sample               800,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.999              100  sample              1800,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.9999             100  sample             20451,373               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p1.00               100  sample            132864,000               ns/op
+SampleString.usingForEachLoop                                     1000  sample  268752      4680,881 ±     18,612  ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.00              1000  sample              2400,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.50              1000  sample              4000,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.90              1000  sample              6800,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.95              1000  sample             10400,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.99              1000  sample             12800,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.999             1000  sample             22688,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.9999            1000  sample            105470,464               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p1.00              1000  sample            265728,000               ns/op
+SampleString.usingForEachLoop                                    10000  sample  116945     42570,724 ±    213,340  ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.00             10000  sample             22592,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.50             10000  sample             38080,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.90             10000  sample             59776,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.95             10000  sample             90880,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.99             10000  sample            120320,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.999            10000  sample            152589,824               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.9999           10000  sample            230478,182               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p1.00             10000  sample           3547136,000               ns/op
+SampleString.usingForEachLoop                                   100000  sample   22584    442774,013 ±   4091,881  ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.00            100000  sample            225792,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.50            100000  sample            403456,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.90            100000  sample            601088,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.95            100000  sample            861184,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.99            100000  sample           1193984,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.999           100000  sample           1348433,920               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.9999          100000  sample           2023145,472               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p1.00            100000  sample           3538944,000               ns/op
+SampleString.usingForEachLoop                                  1000000  sample    2266   4411005,176 ± 115810,331  ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.00           1000000  sample           2473984,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.50           1000000  sample           4030464,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.90           1000000  sample           6154649,600               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.95           1000000  sample           8385740,800               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.99           1000000  sample          11179294,720               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.999          1000000  sample          12164562,944               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p0.9999         1000000  sample          13008896,000               ns/op
+SampleString.usingForEachLoop:usingForEachLoop·p1.00           1000000  sample          13008896,000               ns/op
+SampleString.usingIterator                                           1  sample  224505        39,290 ±      2,519  ns/op
+SampleString.usingIterator:usingIterator·p0.00                       1  sample                   ≈ 0               ns/op
+SampleString.usingIterator:usingIterator·p0.50                       1  sample                   ≈ 0               ns/op
+SampleString.usingIterator:usingIterator·p0.90                       1  sample               100,000               ns/op
+SampleString.usingIterator:usingIterator·p0.95                       1  sample               100,000               ns/op
+SampleString.usingIterator:usingIterator·p0.99                       1  sample               100,000               ns/op
+SampleString.usingIterator:usingIterator·p0.999                      1  sample               400,000               ns/op
+SampleString.usingIterator:usingIterator·p0.9999                     1  sample             13844,742               ns/op
+SampleString.usingIterator:usingIterator·p1.00                       1  sample             90880,000               ns/op
+SampleString.usingIterator                                          10  sample  253200        63,192 ±      3,250  ns/op
+SampleString.usingIterator:usingIterator·p0.00                      10  sample                   ≈ 0               ns/op
+SampleString.usingIterator:usingIterator·p0.50                      10  sample               100,000               ns/op
+SampleString.usingIterator:usingIterator·p0.90                      10  sample               100,000               ns/op
+SampleString.usingIterator:usingIterator·p0.95                      10  sample               100,000               ns/op
+SampleString.usingIterator:usingIterator·p0.99                      10  sample               200,000               ns/op
+SampleString.usingIterator:usingIterator·p0.999                     10  sample               400,000               ns/op
+SampleString.usingIterator:usingIterator·p0.9999                    10  sample             13535,920               ns/op
+SampleString.usingIterator:usingIterator·p1.00                      10  sample            120576,000               ns/op
+SampleString.usingIterator                                         100  sample  232897       372,922 ±      6,542  ns/op
+SampleString.usingIterator:usingIterator·p0.00                     100  sample               100,000               ns/op
+SampleString.usingIterator:usingIterator·p0.50                     100  sample               300,000               ns/op
+SampleString.usingIterator:usingIterator·p0.90                     100  sample               500,000               ns/op
+SampleString.usingIterator:usingIterator·p0.95                     100  sample               700,000               ns/op
+SampleString.usingIterator:usingIterator·p0.99                     100  sample              1000,000               ns/op
+SampleString.usingIterator:usingIterator·p0.999                    100  sample              3010,200               ns/op
+SampleString.usingIterator:usingIterator·p0.9999                   100  sample             46303,603               ns/op
+SampleString.usingIterator:usingIterator·p1.00                     100  sample            139520,000               ns/op
+SampleString.usingIterator                                        1000  sample  200516      3158,001 ±     16,226  ns/op
+SampleString.usingIterator:usingIterator·p0.00                    1000  sample              1700,000               ns/op
+SampleString.usingIterator:usingIterator·p0.50                    1000  sample              2800,000               ns/op
+SampleString.usingIterator:usingIterator·p0.90                    1000  sample              4296,000               ns/op
+SampleString.usingIterator:usingIterator·p0.95                    1000  sample              6200,000               ns/op
+SampleString.usingIterator:usingIterator·p0.99                    1000  sample              8688,000               ns/op
+SampleString.usingIterator:usingIterator·p0.999                   1000  sample             18638,368               ns/op
+SampleString.usingIterator:usingIterator·p0.9999                  1000  sample             99389,824               ns/op
+SampleString.usingIterator:usingIterator·p1.00                    1000  sample            164608,000               ns/op
+SampleString.usingIterator                                       10000  sample  157299     31657,345 ±    123,173  ns/op
+SampleString.usingIterator:usingIterator·p0.00                   10000  sample             17600,000               ns/op
+SampleString.usingIterator:usingIterator·p0.50                   10000  sample             27872,000               ns/op
+SampleString.usingIterator:usingIterator·p0.90                   10000  sample             42944,000               ns/op
+SampleString.usingIterator:usingIterator·p0.95                   10000  sample             64064,000               ns/op
+SampleString.usingIterator:usingIterator·p0.99                   10000  sample             88320,000               ns/op
+SampleString.usingIterator:usingIterator·p0.999                  10000  sample            147200,000               ns/op
+SampleString.usingIterator:usingIterator·p0.9999                 10000  sample            207144,960               ns/op
+SampleString.usingIterator:usingIterator·p1.00                   10000  sample            359424,000               ns/op
+SampleString.usingIterator                                      100000  sample   23222    430470,592 ±   3927,038  ns/op
+SampleString.usingIterator:usingIterator·p0.00                  100000  sample            212224,000               ns/op
+SampleString.usingIterator:usingIterator·p0.50                  100000  sample            380416,000               ns/op
+SampleString.usingIterator:usingIterator·p0.90                  100000  sample            601088,000               ns/op
+SampleString.usingIterator:usingIterator·p0.95                  100000  sample            892928,000               ns/op
+SampleString.usingIterator:usingIterator·p0.99                  100000  sample           1187840,000               ns/op
+SampleString.usingIterator:usingIterator·p0.999                 100000  sample           1310720,000               ns/op
+SampleString.usingIterator:usingIterator·p0.9999                100000  sample           1484022,170               ns/op
+SampleString.usingIterator:usingIterator·p1.00                  100000  sample           1550336,000               ns/op
+SampleString.usingIterator                                     1000000  sample    2270   4402554,023 ± 101148,152  ns/op
+SampleString.usingIterator:usingIterator·p0.00                 1000000  sample           2744320,000               ns/op
+SampleString.usingIterator:usingIterator·p0.50                 1000000  sample           3948544,000               ns/op
+SampleString.usingIterator:usingIterator·p0.90                 1000000  sample           5716377,600               ns/op
+SampleString.usingIterator:usingIterator·p0.95                 1000000  sample           8070348,800               ns/op
+SampleString.usingIterator:usingIterator·p0.99                 1000000  sample          10670735,360               ns/op
+SampleString.usingIterator:usingIterator·p0.999                1000000  sample          11781783,552               ns/op
+SampleString.usingIterator:usingIterator·p0.9999               1000000  sample          12189696,000               ns/op
+SampleString.usingIterator:usingIterator·p1.00                 1000000  sample          12189696,000               ns/op
+SampleString.usingSimpleForLoop                                      1  sample  289390        36,705 ±      2,223  ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.00             1  sample                   ≈ 0               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.50             1  sample                   ≈ 0               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.90             1  sample               100,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.95             1  sample               100,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.99             1  sample               100,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.999            1  sample               400,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.9999           1  sample             12811,693               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p1.00             1  sample             92928,000               ns/op
+SampleString.usingSimpleForLoop                                     10  sample  212072        74,484 ±      3,338  ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.00            10  sample                   ≈ 0               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.50            10  sample               100,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.90            10  sample               100,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.95            10  sample               100,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.99            10  sample               200,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.999           10  sample               600,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.9999          10  sample             14452,882               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p1.00            10  sample             89600,000               ns/op
+SampleString.usingSimpleForLoop                                    100  sample  366456       459,767 ±      4,184  ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.00           100  sample               200,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.50           100  sample               400,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.90           100  sample               600,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.95           100  sample               900,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.99           100  sample              1300,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.999          100  sample              2200,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.9999         100  sample             31005,453               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p1.00           100  sample            112128,000               ns/op
+SampleString.usingSimpleForLoop                                   1000  sample  291984      4318,478 ±     17,299  ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.00          1000  sample              2300,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.50          1000  sample              3800,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.90          1000  sample              6000,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.95          1000  sample              8992,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.99          1000  sample             12288,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.999         1000  sample             22881,440               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.9999        1000  sample            101094,592               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p1.00          1000  sample            347136,000               ns/op
+SampleString.usingSimpleForLoop                                  10000  sample  103396     48199,526 ±    276,933  ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.00         10000  sample             22784,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.50         10000  sample             39680,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.90         10000  sample             80640,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.95         10000  sample            107776,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.99         10000  sample            129408,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.999        10000  sample            186010,368               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.9999       10000  sample            423500,134               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p1.00         10000  sample           2490368,000               ns/op
+SampleString.usingSimpleForLoop                                 100000  sample   20148    496102,537 ±   6111,972  ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.00        100000  sample            250368,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.50        100000  sample            382976,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.90        100000  sample            876544,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.95        100000  sample           1103872,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.99        100000  sample           1553428,480               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.999       100000  sample           1878538,240               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.9999      100000  sample           2017218,970               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p1.00        100000  sample           2025472,000               ns/op
+SampleString.usingSimpleForLoop                                1000000  sample    1967   5078825,517 ± 170556,281  ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.00       1000000  sample           2891776,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.50       1000000  sample           3923968,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.90       1000000  sample           8650752,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.95       1000000  sample          10174464,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.99       1000000  sample          12664176,640               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.999      1000000  sample          16553869,312               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p0.9999     1000000  sample          17727488,000               ns/op
+SampleString.usingSimpleForLoop:usingSimpleForLoop·p1.00       1000000  sample          17727488,000               ns/op
+SampleString.usingStream                                             1  sample  348045        55,729 ±      1,697  ns/op
+SampleString.usingStream:usingStream·p0.00                           1  sample                   ≈ 0               ns/op
+SampleString.usingStream:usingStream·p0.50                           1  sample                   ≈ 0               ns/op
+SampleString.usingStream:usingStream·p0.90                           1  sample               100,000               ns/op
+SampleString.usingStream:usingStream·p0.95                           1  sample               100,000               ns/op
+SampleString.usingStream:usingStream·p0.99                           1  sample               200,000               ns/op
+SampleString.usingStream:usingStream·p0.999                          1  sample               500,000               ns/op
+SampleString.usingStream:usingStream·p0.9999                         1  sample             14000,000               ns/op
+SampleString.usingStream:usingStream·p1.00                           1  sample             80896,000               ns/op
+SampleString.usingStream                                            10  sample  370035        82,527 ±      9,044  ns/op
+SampleString.usingStream:usingStream·p0.00                          10  sample                   ≈ 0               ns/op
+SampleString.usingStream:usingStream·p0.50                          10  sample               100,000               ns/op
+SampleString.usingStream:usingStream·p0.90                          10  sample               100,000               ns/op
+SampleString.usingStream:usingStream·p0.95                          10  sample               200,000               ns/op
+SampleString.usingStream:usingStream·p0.99                          10  sample               200,000               ns/op
+SampleString.usingStream:usingStream·p0.999                         10  sample               500,000               ns/op
+SampleString.usingStream:usingStream·p0.9999                        10  sample             15391,654               ns/op
+SampleString.usingStream:usingStream·p1.00                          10  sample            993280,000               ns/op
+SampleString.usingStream                                           100  sample  209571       413,334 ±      7,842  ns/op
+SampleString.usingStream:usingStream·p0.00                         100  sample               100,000               ns/op
+SampleString.usingStream:usingStream·p0.50                         100  sample               300,000               ns/op
+SampleString.usingStream:usingStream·p0.90                         100  sample               700,000               ns/op
+SampleString.usingStream:usingStream·p0.95                         100  sample               900,000               ns/op
+SampleString.usingStream:usingStream·p0.99                         100  sample              1100,000               ns/op
+SampleString.usingStream:usingStream·p0.999                        100  sample              3842,800               ns/op
+SampleString.usingStream:usingStream·p0.9999                       100  sample             41638,349               ns/op
+SampleString.usingStream:usingStream·p1.00                         100  sample            290816,000               ns/op
+SampleString.usingStream                                          1000  sample  189801      3352,348 ±     22,692  ns/op
+SampleString.usingStream:usingStream·p0.00                        1000  sample              1600,000               ns/op
+SampleString.usingStream:usingStream·p0.50                        1000  sample              2700,000               ns/op
+SampleString.usingStream:usingStream·p0.90                        1000  sample              5600,000               ns/op
+SampleString.usingStream:usingStream·p0.95                        1000  sample              7096,000               ns/op
+SampleString.usingStream:usingStream·p0.99                        1000  sample              9488,000               ns/op
+SampleString.usingStream:usingStream·p0.999                       1000  sample             27507,008               ns/op
+SampleString.usingStream:usingStream·p0.9999                      1000  sample            109751,757               ns/op
+SampleString.usingStream:usingStream·p1.00                        1000  sample            529408,000               ns/op
+SampleString.usingStream                                         10000  sample  146426     34022,086 ±    140,648  ns/op
+SampleString.usingStream:usingStream·p0.00                       10000  sample             16192,000               ns/op
+SampleString.usingStream:usingStream·p0.50                       10000  sample             27488,000               ns/op
+SampleString.usingStream:usingStream·p0.90                       10000  sample             56064,000               ns/op
+SampleString.usingStream:usingStream·p0.95                       10000  sample             71680,000               ns/op
+SampleString.usingStream:usingStream·p0.99                       10000  sample             93149,440               ns/op
+SampleString.usingStream:usingStream·p0.999                      10000  sample            136704,000               ns/op
+SampleString.usingStream:usingStream·p0.9999                     10000  sample            218278,221               ns/op
+SampleString.usingStream:usingStream·p1.00                       10000  sample            496640,000               ns/op
+SampleString.usingStream                                        100000  sample   25855    386670,014 ±   4152,597  ns/op
+SampleString.usingStream:usingStream·p0.00                      100000  sample            161024,000               ns/op
+SampleString.usingStream:usingStream·p0.50                      100000  sample            302080,000               ns/op
+SampleString.usingStream:usingStream·p0.90                      100000  sample            748544,000               ns/op
+SampleString.usingStream:usingStream·p0.95                      100000  sample            890880,000               ns/op
+SampleString.usingStream:usingStream·p0.99                      100000  sample           1069056,000               ns/op
+SampleString.usingStream:usingStream·p0.999                     100000  sample           1343488,000               ns/op
+SampleString.usingStream:usingStream·p0.9999                    100000  sample           1458120,294               ns/op
+SampleString.usingStream:usingStream·p1.00                      100000  sample           1474560,000               ns/op
+SampleString.usingStream                                       1000000  sample    2741   3646196,886 ±  97366,491  ns/op
+SampleString.usingStream:usingStream·p0.00                     1000000  sample           1886208,000               ns/op
+SampleString.usingStream:usingStream·p0.50                     1000000  sample           3043328,000               ns/op
+SampleString.usingStream:usingStream·p0.90                     1000000  sample           6011289,600               ns/op
+SampleString.usingStream:usingStream·p0.95                     1000000  sample           7642316,800               ns/op
+SampleString.usingStream:usingStream·p0.99                     1000000  sample           9217310,720               ns/op
+SampleString.usingStream:usingStream·p0.999                    1000000  sample          11056021,504               ns/op
+SampleString.usingStream:usingStream·p0.9999                   1000000  sample          11403264,000               ns/op
+SampleString.usingStream:usingStream·p1.00                     1000000  sample          11403264,000               ns/op

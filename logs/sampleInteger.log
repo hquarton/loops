@@ -1,0 +1,253 @@
+Benchmark                                                    (listSize)    Mode     Cnt         Score        Error  Units
+SampleInteger.usingForEachLoop                                        1  sample  294108        33,488 ±      1,623  ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.00                 1  sample                   ≈ 0               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.50                 1  sample                   ≈ 0               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.90                 1  sample               100,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.95                 1  sample               100,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.99                 1  sample               100,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.999                1  sample               300,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.9999               1  sample              3658,910               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p1.00                 1  sample             72576,000               ns/op
+SampleInteger.usingForEachLoop                                       10  sample  217823        67,131 ±      6,538  ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.00                10  sample                   ≈ 0               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.50                10  sample               100,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.90                10  sample               100,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.95                10  sample               100,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.99                10  sample               100,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.999               10  sample               300,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.9999              10  sample              8044,160               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p1.00                10  sample            297472,000               ns/op
+SampleInteger.usingForEachLoop                                      100  sample  390115       425,083 ±      2,231  ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.00               100  sample               300,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.50               100  sample               400,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.90               100  sample               500,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.95               100  sample               600,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.99               100  sample               700,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.999              100  sample              1300,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.9999             100  sample             12276,493               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p1.00               100  sample            113152,000               ns/op
+SampleInteger.usingForEachLoop                                     1000  sample  352432      3586,357 ±     18,577  ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.00              1000  sample              2800,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.50              1000  sample              3300,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.90              1000  sample              4296,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.95              1000  sample              4800,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.99              1000  sample              6200,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.999             1000  sample             12054,432               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.9999            1000  sample             76135,718               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p1.00              1000  sample           1755136,000               ns/op
+SampleInteger.usingForEachLoop                                    10000  sample  134383     37183,732 ±     54,781  ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.00             10000  sample             26880,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.50             10000  sample             35072,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.90             10000  sample             45184,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.95             10000  sample             47872,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.99             10000  sample             58560,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.999            10000  sample             90830,848               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.9999           10000  sample            151103,078               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p1.00             10000  sample            242176,000               ns/op
+SampleInteger.usingForEachLoop                                   100000  sample   25285    395594,152 ±   3329,928  ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.00            100000  sample            230144,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.50            100000  sample            326656,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.90            100000  sample            582656,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.95            100000  sample            721920,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.99            100000  sample           1124352,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.999           100000  sample           1327104,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.9999          100000  sample           1788982,477               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p1.00            100000  sample           2490368,000               ns/op
+SampleInteger.usingForEachLoop                                  1000000  sample    2297   4354641,804 ± 111332,659  ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.00           1000000  sample           2453504,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.50           1000000  sample           3981312,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.90           1000000  sample           5865472,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.95           1000000  sample           8299315,200               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.99           1000000  sample          11010703,360               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.999          1000000  sample          12088246,272               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p0.9999         1000000  sample          12451840,000               ns/op
+SampleInteger.usingForEachLoop:usingForEachLoop·p1.00           1000000  sample          12451840,000               ns/op
+SampleInteger.usingIterator                                           1  sample  234971        37,271 ±      2,329  ns/op
+SampleInteger.usingIterator:usingIterator·p0.00                       1  sample                   ≈ 0               ns/op
+SampleInteger.usingIterator:usingIterator·p0.50                       1  sample                   ≈ 0               ns/op
+SampleInteger.usingIterator:usingIterator·p0.90                       1  sample               100,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.95                       1  sample               100,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.99                       1  sample               100,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.999                      1  sample               500,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.9999                     1  sample             12696,582               ns/op
+SampleInteger.usingIterator:usingIterator·p1.00                       1  sample             93184,000               ns/op
+SampleInteger.usingIterator                                          10  sample  261806        60,632 ±      2,380  ns/op
+SampleInteger.usingIterator:usingIterator·p0.00                      10  sample                   ≈ 0               ns/op
+SampleInteger.usingIterator:usingIterator·p0.50                      10  sample               100,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.90                      10  sample               100,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.95                      10  sample               100,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.99                      10  sample               200,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.999                     10  sample               600,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.9999                    10  sample             12800,000               ns/op
+SampleInteger.usingIterator:usingIterator·p1.00                      10  sample            119552,000               ns/op
+SampleInteger.usingIterator                                         100  sample  226658       380,826 ±      4,962  ns/op
+SampleInteger.usingIterator:usingIterator·p0.00                     100  sample               100,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.50                     100  sample               300,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.90                     100  sample               500,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.95                     100  sample               700,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.99                     100  sample              1000,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.999                    100  sample              2334,100               ns/op
+SampleInteger.usingIterator:usingIterator·p0.9999                   100  sample             36224,294               ns/op
+SampleInteger.usingIterator:usingIterator·p1.00                     100  sample            115200,000               ns/op
+SampleInteger.usingIterator                                        1000  sample  199197      3179,686 ±     18,161  ns/op
+SampleInteger.usingIterator:usingIterator·p0.00                    1000  sample              1700,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.50                    1000  sample              2900,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.90                    1000  sample              4296,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.95                    1000  sample              6496,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.99                    1000  sample              8896,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.999                   1000  sample             18764,992               ns/op
+SampleInteger.usingIterator:usingIterator·p0.9999                  1000  sample            107919,718               ns/op
+SampleInteger.usingIterator:usingIterator·p1.00                    1000  sample            265216,000               ns/op
+SampleInteger.usingIterator                                       10000  sample  153607     32424,850 ±    136,982  ns/op
+SampleInteger.usingIterator:usingIterator·p0.00                   10000  sample             17600,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.50                   10000  sample             27776,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.90                   10000  sample             50176,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.95                   10000  sample             71552,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.99                   10000  sample             89344,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.999                  10000  sample            129586,176               ns/op
+SampleInteger.usingIterator:usingIterator·p0.9999                 10000  sample            207602,893               ns/op
+SampleInteger.usingIterator:usingIterator·p1.00                   10000  sample           1787904,000               ns/op
+SampleInteger.usingIterator                                      100000  sample   20470    488696,696 ±   4911,976  ns/op
+SampleInteger.usingIterator:usingIterator·p0.00                  100000  sample            212480,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.50                  100000  sample            455168,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.90                  100000  sample            652288,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.95                  100000  sample            950272,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.99                  100000  sample           1429504,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.999                 100000  sample           1549371,392               ns/op
+SampleInteger.usingIterator:usingIterator·p0.9999                100000  sample           1707163,853               ns/op
+SampleInteger.usingIterator:usingIterator·p1.00                  100000  sample           1722368,000               ns/op
+SampleInteger.usingIterator                                     1000000  sample    2198   4552418,883 ± 116786,345  ns/op
+SampleInteger.usingIterator:usingIterator·p0.00                 1000000  sample           2813952,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.50                 1000000  sample           3973120,000               ns/op
+SampleInteger.usingIterator:usingIterator·p0.90                 1000000  sample           6529843,200               ns/op
+SampleInteger.usingIterator:usingIterator·p0.95                 1000000  sample           8586035,200               ns/op
+SampleInteger.usingIterator:usingIterator·p0.99                 1000000  sample          11125555,200               ns/op
+SampleInteger.usingIterator:usingIterator·p0.999                1000000  sample          13097418,752               ns/op
+SampleInteger.usingIterator:usingIterator·p0.9999               1000000  sample          13385728,000               ns/op
+SampleInteger.usingIterator:usingIterator·p1.00                 1000000  sample          13385728,000               ns/op
+SampleInteger.usingSimpleForLoop                                      1  sample  226546        46,623 ±      4,465  ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.00             1  sample                   ≈ 0               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.50             1  sample                   ≈ 0               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.90             1  sample               100,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.95             1  sample               100,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.99             1  sample               100,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.999            1  sample               400,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.9999           1  sample             15063,822               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p1.00             1  sample            207616,000               ns/op
+SampleInteger.usingSimpleForLoop                                     10  sample  375868        83,241 ±      2,216  ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.00            10  sample                   ≈ 0               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.50            10  sample               100,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.90            10  sample               100,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.95            10  sample               200,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.99            10  sample               200,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.999           10  sample               500,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.9999          10  sample             12400,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p1.00            10  sample            100608,000               ns/op
+SampleInteger.usingSimpleForLoop                                    100  sample  350244       483,522 ±      5,239  ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.00           100  sample               200,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.50           100  sample               400,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.90           100  sample               700,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.95           100  sample              1000,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.99           100  sample              1300,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.999          100  sample              3100,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.9999         100  sample             41592,160               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p1.00           100  sample            202240,000               ns/op
+SampleInteger.usingSimpleForLoop                                   1000  sample  300249      4191,421 ±     15,835  ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.00          1000  sample              2300,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.50          1000  sample              3800,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.90          1000  sample              5600,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.95          1000  sample              9088,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.99          1000  sample             12288,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.999         1000  sample             18248,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.9999        1000  sample             97232,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p1.00          1000  sample            217600,000               ns/op
+SampleInteger.usingSimpleForLoop                                  10000  sample  120879     41189,979 ±    185,417  ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.00         10000  sample             23072,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.50         10000  sample             38144,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.90         10000  sample             56448,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.95         10000  sample             87424,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.99         10000  sample            119321,600               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.999        10000  sample            150589,440               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.9999       10000  sample            248238,080               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p1.00         10000  sample            409088,000               ns/op
+SampleInteger.usingSimpleForLoop                                 100000  sample   23470    425901,823 ±   3934,772  ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.00        100000  sample            250368,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.50        100000  sample            386560,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.90        100000  sample            584704,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.95        100000  sample            816128,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.99        100000  sample           1208320,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.999       100000  sample           1336379,392               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.9999      100000  sample           1626705,920               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p1.00        100000  sample           1726464,000               ns/op
+SampleInteger.usingSimpleForLoop                                1000000  sample    2319   4309131,536 ± 106920,942  ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.00       1000000  sample           2523136,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.50       1000000  sample           3969024,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.90       1000000  sample           5857280,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.95       1000000  sample           8208384,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.99       1000000  sample          10629939,200               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.999      1000000  sample          12272271,360               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p0.9999     1000000  sample          12468224,000               ns/op
+SampleInteger.usingSimpleForLoop:usingSimpleForLoop·p1.00       1000000  sample          12468224,000               ns/op
+SampleInteger.usingStream                                             1  sample  208334        51,226 ±      3,801  ns/op
+SampleInteger.usingStream:usingStream·p0.00                           1  sample                   ≈ 0               ns/op
+SampleInteger.usingStream:usingStream·p0.50                           1  sample                   ≈ 0               ns/op
+SampleInteger.usingStream:usingStream·p0.90                           1  sample               100,000               ns/op
+SampleInteger.usingStream:usingStream·p0.95                           1  sample               100,000               ns/op
+SampleInteger.usingStream:usingStream·p0.99                           1  sample               100,000               ns/op
+SampleInteger.usingStream:usingStream·p0.999                          1  sample               500,000               ns/op
+SampleInteger.usingStream:usingStream·p0.9999                         1  sample             16533,280               ns/op
+SampleInteger.usingStream:usingStream·p1.00                           1  sample            102784,000               ns/op
+SampleInteger.usingStream                                            10  sample  207109        88,557 ±     30,017  ns/op
+SampleInteger.usingStream:usingStream·p0.00                          10  sample                   ≈ 0               ns/op
+SampleInteger.usingStream:usingStream·p0.50                          10  sample               100,000               ns/op
+SampleInteger.usingStream:usingStream·p0.90                          10  sample               100,000               ns/op
+SampleInteger.usingStream:usingStream·p0.95                          10  sample               100,000               ns/op
+SampleInteger.usingStream:usingStream·p0.99                          10  sample               200,000               ns/op
+SampleInteger.usingStream:usingStream·p0.999                         10  sample               500,000               ns/op
+SampleInteger.usingStream:usingStream·p0.9999                        10  sample             16615,200               ns/op
+SampleInteger.usingStream:usingStream·p1.00                          10  sample           1122304,000               ns/op
+SampleInteger.usingStream                                           100  sample  230522       380,944 ±     18,106  ns/op
+SampleInteger.usingStream:usingStream·p0.00                         100  sample               100,000               ns/op
+SampleInteger.usingStream:usingStream·p0.50                         100  sample               300,000               ns/op
+SampleInteger.usingStream:usingStream·p0.90                         100  sample               500,000               ns/op
+SampleInteger.usingStream:usingStream·p0.95                         100  sample               700,000               ns/op
+SampleInteger.usingStream:usingStream·p0.99                         100  sample              1000,000               ns/op
+SampleInteger.usingStream:usingStream·p0.999                        100  sample              3200,000               ns/op
+SampleInteger.usingStream:usingStream·p0.9999                       100  sample             56727,834               ns/op
+SampleInteger.usingStream:usingStream·p1.00                         100  sample            870400,000               ns/op
+SampleInteger.usingStream                                          1000  sample  209606      3042,959 ±     43,345  ns/op
+SampleInteger.usingStream:usingStream·p0.00                        1000  sample              1600,000               ns/op
+SampleInteger.usingStream:usingStream·p0.50                        1000  sample              2700,000               ns/op
+SampleInteger.usingStream:usingStream·p0.90                        1000  sample              4200,000               ns/op
+SampleInteger.usingStream:usingStream·p0.95                        1000  sample              6400,000               ns/op
+SampleInteger.usingStream:usingStream·p0.99                        1000  sample              8496,000               ns/op
+SampleInteger.usingStream:usingStream·p0.999                       1000  sample             19864,032               ns/op
+SampleInteger.usingStream:usingStream·p0.9999                      1000  sample            107530,061               ns/op
+SampleInteger.usingStream:usingStream·p1.00                        1000  sample           2535424,000               ns/op
+SampleInteger.usingStream                                         10000  sample  169687     29416,534 ±     99,433  ns/op
+SampleInteger.usingStream:usingStream·p0.00                       10000  sample             16192,000               ns/op
+SampleInteger.usingStream:usingStream·p0.50                       10000  sample             27392,000               ns/op
+SampleInteger.usingStream:usingStream·p0.90                       10000  sample             35392,000               ns/op
+SampleInteger.usingStream:usingStream·p0.95                       10000  sample             55168,000               ns/op
+SampleInteger.usingStream:usingStream·p0.99                       10000  sample             82816,000               ns/op
+SampleInteger.usingStream:usingStream·p0.999                      10000  sample            112295,936               ns/op
+SampleInteger.usingStream:usingStream·p0.9999                     10000  sample            192551,936               ns/op
+SampleInteger.usingStream:usingStream·p1.00                       10000  sample            251136,000               ns/op
+SampleInteger.usingStream                                        100000  sample   28471    351071,014 ±   2824,872  ns/op
+SampleInteger.usingStream:usingStream·p0.00                      100000  sample            163072,000               ns/op
+SampleInteger.usingStream:usingStream·p0.50                      100000  sample            314880,000               ns/op
+SampleInteger.usingStream:usingStream·p0.90                      100000  sample            469504,000               ns/op
+SampleInteger.usingStream:usingStream·p0.95                      100000  sample            715776,000               ns/op
+SampleInteger.usingStream:usingStream·p0.99                      100000  sample            965632,000               ns/op
+SampleInteger.usingStream:usingStream·p0.999                     100000  sample           1092665,344               ns/op
+SampleInteger.usingStream:usingStream·p0.9999                    100000  sample           1412608,819               ns/op
+SampleInteger.usingStream:usingStream·p1.00                      100000  sample           1488896,000               ns/op
+SampleInteger.usingStream                                       1000000  sample    2932   3408874,347 ±  68187,688  ns/op
+SampleInteger.usingStream:usingStream·p0.00                     1000000  sample           1853440,000               ns/op
+SampleInteger.usingStream:usingStream·p0.50                     1000000  sample           3145728,000               ns/op
+SampleInteger.usingStream:usingStream·p0.90                     1000000  sample           4345036,800               ns/op
+SampleInteger.usingStream:usingStream·p0.95                     1000000  sample           5923225,600               ns/op
+SampleInteger.usingStream:usingStream·p0.99                     1000000  sample           8749219,840               ns/op
+SampleInteger.usingStream:usingStream·p0.999                    1000000  sample           9668755,456               ns/op
+SampleInteger.usingStream:usingStream·p0.9999                   1000000  sample          10387456,000               ns/op
+SampleInteger.usingStream:usingStream·p1.00                     1000000  sample          10387456,000               ns/op
